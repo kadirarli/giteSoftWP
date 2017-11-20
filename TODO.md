@@ -1,8 +1,8 @@
 TODO List
 
 - [ ] Inside admin
-  - [ ] install clean Wordpress:
-  - [ ] install theme Unite. It has Bootstrap 3 inside.
+  - [x] install clean Wordpress:
+  - [x] install theme Unite. It has Bootstrap 3 inside.
   - [ ] create child theme from Unite
   - [ ] add new type of post "Films". We need possibility to add new films. 
   - [ ] Add following taxonimies to films: Genre, Country, Year and Actors

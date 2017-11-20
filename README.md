@@ -27,3 +27,4 @@ Username: kadirarli
 Password: %XdM4VItez56cKn9
 Email: kadirarli@gmail.com
 
+5. "Unite (v2.0.2) Wordpress Theme" is downloaded, uploaded, activated and the necessary plugin (CPT Bootstrap Carousel) were installed.
