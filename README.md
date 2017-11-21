@@ -59,4 +59,4 @@ I've added a new module to the admin panel to load movies. While adding new movi
 
 Best Regards.
 
-
+17. Timer is stopped.

@@ -15,4 +15,4 @@ TODO List
 - [x] Result
   - [x] A new git repository should be created for the project and all changes should be committed progressively. We should be able to easily see the parts you coded and differentiate it from framework code. Also include  SQL DB dump. Please add the public repository url to your reply.
   - [x] In comment to that task provide summary of your work in English. Please, write it in formal way as if you're talking with client
-  - [ ] Stop timer when you finish your work
+  - [x] Stop timer when you finish your work
