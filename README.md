@@ -47,4 +47,6 @@ Email: kadirarli@gmail.com
 
 14. Widget named "Last 5 Films" is added below search box. Shortcode "Last5AddedFilms" is created for this action. For testing, 3 films are created.
 
+15. SQL dump file is exported from mysql.
+
 
