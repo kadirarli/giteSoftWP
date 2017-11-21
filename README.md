@@ -43,5 +43,7 @@ Email: kadirarli@gmail.com
 
 12. "Country", "Genre", "Ticket Price", "Release Date" values are added below description text.
 
+13. "Country", "Genre", "Ticket Price", "Release Date" values are added at list of films by using hook. (__after_film_list_content)
+
 
 

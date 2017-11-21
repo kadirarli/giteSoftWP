@@ -181,4 +181,29 @@ function create_film_taxonomies() {
 
 
 }
+
+add_action( '__after_film_list_content', 'add_more_information_text' );
+
+function add_more_information_text() {
+
+    echo "<p>".get_the_term_list( get_the_ID(), 'country', '<b>Country: </b>', ', ', '')."</p>";
+    echo "<p>".get_the_term_list( get_the_ID(), 'genre', '<b>Genres: </b>', ', ', '')."</p>";
+    echo "<p>";
+    if(get_field('ticket_price') ):
+        $field_name = "ticket_price";
+        $field = get_field_object($field_name);
+        echo '<b>'.$field['label'].': </b>'.$field['value'] . ' ' .$field['append'];
+    endif;
+
+    echo "</p>";
+    echo "<p>";
+        if(get_field('release_date') ):
+            $field_name = "release_date";
+            $field = get_field_object($field_name);
+            echo '<b>'.$field['label'].': </b>'.$field['value'];
+        endif;
+    echo "</p>";
+
+}
+
 ?>
