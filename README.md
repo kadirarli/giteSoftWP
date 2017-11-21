@@ -45,5 +45,6 @@ Email: kadirarli@gmail.com
 
 13. "Country", "Genre", "Ticket Price", "Release Date" values are added at list of films by using hook. (__after_film_list_content)
 
+14. Widget named "Last 5 Films" is added below search box. Shortcode "Last5AddedFilms" is created for this action. For testing, 3 films are created.
 
 

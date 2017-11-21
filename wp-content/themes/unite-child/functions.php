@@ -182,6 +182,8 @@ function create_film_taxonomies() {
 
 }
 
+// "Country", "Genre", "Ticket Price", "Release Date" values are added at list of films by using hook.
+
 add_action( '__after_film_list_content', 'add_more_information_text' );
 
 function add_more_information_text() {
@@ -204,6 +206,32 @@ function add_more_information_text() {
         endif;
     echo "</p>";
 
+}
+
+//Shortcode for films. ( Last 5 Added Films )
+
+add_shortcode('Last5AddedFilms', 'last_5_added_films_shortcode');
+function last_5_added_films_shortcode(){
+    $args = array(
+        'post_type' => 'film',
+        'post_status' => 'publish',
+        'posts_per_page' => 5
+    );
+
+    global $film;
+    $film = new WP_Query( $args );
+    $html = "";
+
+    if( $film->have_posts() ){
+        $html .= '<ul>';
+        while( $film->have_posts() ){
+            $film->the_post();
+            $html .= '<li><a href="' . get_post_permalink() . '">'. get_the_title() .'</a></li>';
+        }
+        $html .= '</ul>';
+    }
+    wp_reset_query();
+    return html_entity_decode($html);
 }
 
 ?>
