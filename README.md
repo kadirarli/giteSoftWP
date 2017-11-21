@@ -49,4 +49,14 @@ Email: kadirarli@gmail.com
 
 15. SQL dump file is exported from mysql.
 
+16. SUMMARY
+
+Hello,
+
+About Last Update:
+
+I've added a new module to the admin panel to load movies. While adding new movies, you can choose the movie's genres, actors, year and country. In addition, you will be able to write the movie's release date and ticket price. You can see the site on the design you want when you publish the movie.
+
+Best Regards.
+
 
