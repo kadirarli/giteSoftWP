@@ -41,6 +41,7 @@ Email: kadirarli@gmail.com
 
 11. To display film post type, WP Permalink is changed and .htaccess is created. URL: http://gitesoftwp.dev/film/
 
+12. "Country", "Genre", "Ticket Price", "Release Date" values are added below description text.
 
 
 

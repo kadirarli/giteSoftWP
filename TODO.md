@@ -9,7 +9,7 @@ TODO List
   - [x] Add custom text fields "Ticket Price" and "Release Date". You can use extension or do it on your own
   - [x] Add 3 films with test data just to prove that it works
 - [ ] Public view
-  - [ ] add values "Country", "Genre", "Ticket Price", "Release Date" at film page under description. We must use  custom page in child theme in that particular case
+  - [x] add values "Country", "Genre", "Ticket Price", "Release Date" at film page under description. We must use  custom page in child theme in that particular case
   - [ ] add values "Country", "Genre", "Ticket Price", "Release Date" at list of films. We must use hook here.
   - [ ] create shortcode to show last 5 films. We need to add shortcode at right sidebar under search field.
 - [ ] Result
