@@ -35,4 +35,6 @@ Email: kadirarli@gmail.com
 
 8. Genre, Country, Year and Actors taxonomies are added to film.
 
-9. Custom text fields "Ticket Price" and "Release Date" are added by using "Advanced Custom Fields" Plugin. 
+9. Custom text fields "Ticket Price" and "Release Date" are added by using "Advanced Custom Fields" Plugin.
+
+10. 3 films are added for testing. 

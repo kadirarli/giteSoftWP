@@ -7,7 +7,7 @@ TODO List
   - [x] add new type of post "Films". We need possibility to add new films. 
   - [x] Add following taxonimies to films: Genre, Country, Year and Actors
   - [x] Add custom text fields "Ticket Price" and "Release Date". You can use extension or do it on your own
-  - [ ] Add 3 films with test data just to prove that it works
+  - [x] Add 3 films with test data just to prove that it works
 - [ ] Public view
   - [ ] add values "Country", "Genre", "Ticket Price", "Release Date" at film page under description. We must use  custom page in child theme in that particular case
   - [ ] add values "Country", "Genre", "Ticket Price", "Release Date" at list of films. We must use hook here.
