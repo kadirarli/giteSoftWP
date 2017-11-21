@@ -38,3 +38,9 @@ Email: kadirarli@gmail.com
 9. Custom text fields "Ticket Price" and "Release Date" are added by using "Advanced Custom Fields" Plugin.
 
 10. 3 films are added for testing. 
+
+11. To display film post type, WP Permalink is changed and .htaccess is created. URL: http://gitesoftwp.dev/film/
+
+
+
+
