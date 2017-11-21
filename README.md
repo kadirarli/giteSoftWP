@@ -30,3 +30,7 @@ Email: kadirarli@gmail.com
 5. "Unite (v2.0.2) Wordpress Theme" is downloaded, uploaded and the necessary plugin (CPT Bootstrap Carousel) were installed.
 
 6. Child Theme is created for Unite WP Theme and activated.
+
+7. Type of post named "Films" is added.
+
+

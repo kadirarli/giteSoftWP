@@ -4,7 +4,7 @@ TODO List
   - [x] install clean Wordpress:
   - [x] install theme Unite. It has Bootstrap 3 inside.
   - [x] create child theme from Unite
-  - [ ] add new type of post "Films". We need possibility to add new films. 
+  - [x] add new type of post "Films". We need possibility to add new films. 
   - [ ] Add following taxonimies to films: Genre, Country, Year and Actors
   - [ ] Add custom text fields "Ticket Price" and "Release Date". You can use extension or do it on your own
   - [ ] Add 3 films with test data just to prove that it works
